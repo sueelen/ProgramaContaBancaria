@@ -38,6 +38,16 @@ public class Conta {
 		saldo -= quantidadeDeDinheiro + 5.0;
 	}
 	
+	public String toString() {
+		return "Conta: "
+				+ numero
+				+ ", Titular: "
+				+ titular
+				+ ", Saldo: $ " 
+				+ saldo;
+		
+	}
+	
 	
 	
 }
