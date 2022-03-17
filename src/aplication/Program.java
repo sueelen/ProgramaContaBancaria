@@ -35,9 +35,21 @@ public class Program {
 		System.out.println("Dados da conta: ");
 		System.out.println(conta);
 		
+		System.out.println("");
+		System.out.print("Entre com um valor para depósito: ");
+		double valorDeposito = sc.nextDouble();
+		conta.deposito(valorDeposito);
+		System.out.println("Update da conta: ");
+		System.out.println(conta);
+		
+		System.out.println("");
+		System.out.print("Entre com um valor para sacar: ");
+		double valorSaque = sc.nextDouble();
+		conta.sacarDinheiro(valorSaque);
+		System.out.println("Update da conta: ");
+		System.out.println(conta);
 		
 		sc.close();
 		
 	}
-
 }
